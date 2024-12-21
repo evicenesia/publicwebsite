@@ -1,0 +1,107 @@
+header {
+    box-shadow: .1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 240, 220);
+    padding: 0 2rem;
+}
+.header-hero {
+    display: grid;
+    padding-top: 60px;
+}
+.header-hero h1 {
+    font-size: 8.825em;
+    text-align: center;
+    color: rgb(158, 59, 224);
+    z-index: 1; 
+    padding-bottom: 20px;
+    position: relative;
+}
+.header-hero p {
+    width: 70%; 
+}
+.header-hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 150px; 
+    right: 0; 
+    transform: translateX(-40%); 
+    z-index: 2;
+}
+.header-hero-img img {
+    width: 250px;
+}
+.intro-section {
+    padding: 0 2rem;
+}
+.intro-section2 {
+    padding: 4rem 2rem;
+}
+.intro-section-content h2 {
+    font-size: 2em;
+    color: rgb(158, 59, 224)
+}
+.intro-section-content2 {
+    text-align: center;
+    padding: 0 4rem;
+}
+.intro-section-content2 h2 {
+    font-size: 2em;
+    color: rgb(158, 59, 224);
+    padding: 1rem 0;
+}
+.intro-section-content2 p {
+    font-size: 1.3em;
+}
+.intro-section-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 20px;
+}
+.intro-section-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 247);
+    box-shadow: 0 0 3px .7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    padding: 20px;
+}
+.intro-section-item img {
+    width: 150px;
+    padding: 10px;
+}
+.intro-desc {
+    padding-bottom: 10rem;
+}
+.intro-desc-content {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0), rgba(0, 0, 0, 0.03) 40%, rgba(0, 0, 0, 0.03) 80%, rgba(0, 0, 255, 0));
+}
+.intro-desc-content img{
+    width: 450px;
+}
+.intro-desc-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 2rem;
+}
+.intro-desc-items h1 {
+    color: rgb(158, 59, 224);
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.intro-desc-items p {
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
