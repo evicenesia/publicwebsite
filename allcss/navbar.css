@@ -231,7 +231,7 @@ html, body {
   .mobile-menu {
     display: none;
     padding: 0.5rem;
-    background-color: white;
+    background-color: #fff0dc;
   }
   
   .mobile-menu.active {
@@ -322,14 +322,6 @@ html, body {
     }
   }
   @media (max-width: 468px) {
-    .search-container {
-        order: 0;
-        flex-basis: 0;
-        max-width: 15rem;
-    }
-    .search-input {
-      flex-wrap: wrap;
-    }
     .nav-right {
       display: none;
     }
